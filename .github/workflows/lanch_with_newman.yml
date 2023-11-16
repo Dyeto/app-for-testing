@@ -9,7 +9,7 @@ jobs:
           with:
             node-version: 18
         - run: npm install -g newman
-        - run: newman run "https://api.postman.com/collections/28219024-b9bcfb61-7ab2-46c7-bb64-9741e5460c7b?access_key=${{ secrets.POSTMAN_API_KEY }}"
+        - run: newman run "https://api.postman.com/collections/28219024-b9bcfb61-7ab2-46c7-bb64-9741e5460c7b?access_key=${{ secrets.POSTMAN_API_KEY_FOR_COLLECTION }}"
 
 
 
