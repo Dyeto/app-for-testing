@@ -6,6 +6,6 @@ jobs:
     run-collection:
         runs-on: ubuntu-lates
         steps:
-            - uses: Dyeto/my--reusable-github-actions-workflows/blob/main/.github/workflows/run_postman_collections.yml
+            - uses: Dyeto/my--reusable-github-actions-workflows/blob/main/.github/workflows/run_postman_collections.yml@v1
               with: 
                 collection_id: 28219024-b9bcfb61-7ab2-46c7-bb64-9741e5460c7b
