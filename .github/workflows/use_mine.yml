@@ -4,8 +4,6 @@ on: push
 
 jobs:
     run-collection:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: Dyeto/my--reusable-github-actions-workflows/.github/workflows/run_postman_collections.yml@main
-              with: 
-                collection_id: 28219024-b9bcfb61-7ab2-46c7-bb64-9741e5460c7b
+        uses: Dyeto/my--reusable-github-actions-workflows/.github/workflows/run_postman_collections.yml@main
+        with: 
+            collection_id: 28219024-b9bcfb61-7ab2-46c7-bb64-9741e5460c7b
