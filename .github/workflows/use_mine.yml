@@ -4,7 +4,7 @@ on: push
 
 jobs:
     run-collection:
-        runs-on: ubuntu-lates
+        runs-on: ubuntu-latest
         steps:
             - uses: Dyeto/my--reusable-github-actions-workflows/blob/main/.github/workflows/run_postman_collections.yml@v1
               with: 
