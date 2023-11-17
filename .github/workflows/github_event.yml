@@ -1,0 +1,13 @@
+name: See github event content
+
+on:
+    push:
+        branches:
+            - test1
+
+jobs:
+    event-centent:
+        runs-on: ubuntu-latest
+        steps:
+            - name: "events values"
+              run: echo ${{github.event}}
