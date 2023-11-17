@@ -13,6 +13,7 @@ jobs:
             collection_id: 28219024-b9bcfb61-7ab2-46c7-bb64-9741e5460c7b
             postman_env_id: 28219024-fa3ed16a-5885-41ef-a309-e4926e8f7aa3
             jira_project_key: CIAM
+            
         secrets:
             postman_api_key : ${{ secrets.POSTMAN_API_KEY }}
             jira_username: xxxx
@@ -29,5 +30,5 @@ jobs:
             postman_api_key : ${{ secrets.POSTMAN_API_KEY }}
 
                 
-            
+
 
