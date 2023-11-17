@@ -11,7 +11,7 @@ jobs:
         uses: Dyeto/my--reusable-github-actions-workflows/.github/workflows/run_postman_collections.yml@main
         with: 
             collection_id: 28219024-b9bcfb61-7ab2-46c7-bb64-9741e5460c7b
-            #postman_env_id: 28219024-fa3ed16a-5885-41ef-a309-e4926e8f7aa3
+            postman_env_id: 28219024-fa3ed16a-5885-41ef-a309-e4926e8f7aa3
         secrets:
             postman_api_key : ${{ secrets.POSTMAN_API_KEY }}
 
