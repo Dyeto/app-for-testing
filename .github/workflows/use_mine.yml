@@ -2,7 +2,7 @@ name : "Run Postman collection"
 on: 
     push:
         branches:
-            - test/test-github-actions-run-postman-collections  
+            - test1
 jobs:
     run-collection:
         runs-on: ubuntu-latest
