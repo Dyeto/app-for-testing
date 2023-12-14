@@ -1,17 +1,20 @@
 # app-for-testing
 <details>
-  <summary>Click me</summary>
-  
-  ### Heading
-  1. Foo
-  2. Bar
-     * Baz
-     * Qux
+<summary> GET Get nones 
+</summary>* ✅ Status code should be 404 
+* ❌ Test should fail 
 
-  ### Some Javascript
-  ```js
-  function logSomething(something) {
-    console.log('Something', something);
-  }
-  ```
 </details>
+
+<details>
+<summary> GET Get users 
+</summary>* ✅ Reponse should contains non empty array of users 
+
+</details>
+
+<details>
+<summary> GET Get user 
+</summary>* ✅ Reponse should contains user with id=2 
+
+</details>
+
