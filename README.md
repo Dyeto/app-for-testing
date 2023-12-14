@@ -1,7 +1,9 @@
 # app-for-testing
 
 <details>
-<summary> GET Get nones 
+<summary> 
+  | Name | Required | Default |
+| ---- | -------- | ------- |
 </summary>
 
  * ✅ Status code should be 404 
